@@ -1,0 +1,108 @@
+@media screen and (max-width:767px) {
+    .sect1 {
+        background-color: blue;
+        height: 40px;
+    }
+
+    .sect2 {
+        background-color: green;
+        height: 100px;
+    }
+
+    .sect3 {
+        background-color: orange;
+        height: 100px;
+
+    }
+
+    .sect4 {
+        background-color: orange;
+        height: 100px;
+    }
+
+    .sect5 {
+        background-color: red;
+        height: 40px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 767px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .sect1 {
+        display: flex;
+        background-color: blue;
+        height: 40px;
+        width: 50%;
+
+    }
+
+    .sect2 {
+
+        background-color: green;
+        height: 100px;
+
+    }
+
+    .sect3 {
+        background-color: orange;
+        height: 100px;
+    }
+
+    .sect4 {
+        background-color: orange;
+        height: 100px;
+
+    }
+
+    .sect5 {
+        background-color: red;
+        height: 40px;
+
+    }
+
+    .sect6 {
+        background-color: purple;
+        height: 100px;
+
+    }
+
+    .sect7 {
+        background-color: purple;
+        height: 100px;
+
+    }
+
+.box{
+    display: flex;
+    flex-wrap:wrap;
+gap: 5px;
+
+}
+
+.box > .sub{
+    flex: 1 1 49%;
+    gap: 5px;
+}
+
+}

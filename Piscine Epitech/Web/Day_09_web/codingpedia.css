@@ -1,0 +1,84 @@
+.box {
+    border: black solid 2px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+body {
+    background-color: grey;
+}
+
+main, aside {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main {
+    height: 65%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+aside {
+
+    height: 65%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.moving_square {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: mv_square 5s ease 5;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+ol {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+div.pres {
+    border: solid 3px pink;
+    margin: 10px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    height: 100px;
+}
+
+div.col {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+article{
+    border: solid 3px pink;
+    margin: 10px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+input[type=text], textarea{
+
+width: 80%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }

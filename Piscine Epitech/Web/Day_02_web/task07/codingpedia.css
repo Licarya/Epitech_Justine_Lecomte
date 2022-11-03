@@ -1,0 +1,30 @@
+.box{
+    border: black solid 2px;
+    margin : 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+body{
+    background-color: grey;
+}
+
+main, aside{
+display: flex;
+flex-wrap: nowrap;
+}
+
+main{
+    height: 80%;
+}
+
+aside{
+
+    height: 20%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}

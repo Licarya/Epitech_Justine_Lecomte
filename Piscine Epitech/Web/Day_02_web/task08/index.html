@@ -1,0 +1,103 @@
+<!doctype html>
+
+<head>
+    <title>CodingPedia</title>
+    <link rel="stylesheet" href="codingpedia.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <header class="box">
+        <h1>Welcome to CodingPedia!</h1>
+        <nav class="box">
+            <ol>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="sql.html">SQL</a></li>
+            </ol>
+        </nav>
+    </header>
+    <div class="moving_square"></div>
+    <div id="template">
+    <main class="box">
+        <div class="pres">
+            <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual
+                which functions as a wiki. <br>
+                CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can
+                modify
+                and
+                improve.</p>
+        </div>
+        <article>
+            <form>
+                <div>
+                    <label>Name:</label>
+                    <input type="text" placeholder="Your Name" required><br>
+                </div>
+                <div>
+                    <label>First name:</label>
+                    <input type="text" placeholder="Your First name" required><br>
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type="text" placeholder="Your Email" required><br>
+                </div>
+                <div>
+                    <label>Age:</label>
+                    <input type="number" placeholder="Your age" min="3" max="99" required><br>
+                </div>
+                <div>
+                    <label>Phone:</label>
+                    <input type="tel" placeholder="Your Phone" maxlength="10" required><br>
+                </div>
+                <div>
+                    <label>Sex:</label>
+                    <input type="radio" value="Male" checked name="sex" required>
+                    <label>Male</label>
+                    <input type="radio" value="Female" name="sex" required>
+                    <label>Female</label><br>
+                </div>
+                <div class="form">
+                    <label>Hair color</label>
+                    <input type="color"><br>
+                </div>
+                <div>
+                    <label>Date:</label>
+                    <input type="date" value="2022-09-13" required><br>
+                </div>
+                <div class="form">
+                    <label>Technologie:</label>
+                    <select name="tech">
+                        <option value="choose">Choose a Tech</option>
+                        <option value="php">PHP</option>
+                        <option value="sql">SQL</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label>Question:</label>
+                    <textarea placeholder="Any Questions ?" col="30" rows="5"></textarea><br>
+                </div>
+                <div class="form">
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </article>
+
+    </main>
+
+    <aside class="box">Hello I'm Justine</aside><br>
+</div>
+
+    <footer class="box">
+        <address>
+            Lecomte <br>
+            Justine<br>
+            25 rue Ausone, 33520, Bruges<br>
+            06.70.08.32.10
+        </address>
+    </footer>
+
+</body>
+
+</html>

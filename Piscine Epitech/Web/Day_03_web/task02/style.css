@@ -1,0 +1,37 @@
+    .sect1 {
+        background-color: blue;
+        height: 40px;
+    }
+
+    .sect2 {
+        background-color: green;
+        height: 100px;
+    }
+
+    .sect3 {
+        background-color: orange;
+        height: 100px;
+    
+    }
+
+    .sect4 {
+        background-color: orange;
+        height: 100px;
+    }
+
+    .sect5 {
+        background-color: red;
+        height: 40px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        max-width: 767px;
+    }
+    .box{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }

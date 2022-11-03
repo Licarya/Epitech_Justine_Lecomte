@@ -1,0 +1,485 @@
+@media screen and (min-width:1151px) {
+
+    body {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 217, 182);
+        color: white;
+    }
+
+    nav {
+        height: 100%;
+    }
+
+    header {
+        height: 50%;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(-100%, -50%);
+        background-color: grey;
+        border-radius: 20px;
+    }
+
+    .navbar {
+        color: white;
+        flex-direction: column;
+        height: 90%;
+        font-size: x-large;
+        justify-content: space-evenly;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    main {
+        position: absolute;
+        height: 90%;
+        width: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 20% auto;
+
+    }
+
+    .present {
+        height: 100%;
+        position: relative;
+        background-color: grey;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .pres2{
+        display: none;
+    }
+
+    .present h4 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    div.image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        top: -50px;
+    }
+
+    .fixe {
+        height: 50%;
+        overflow: auto;
+
+    }
+
+    .click {
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    div.image img {
+        height: 100%;
+    }
+
+    #submenu1,
+    #submenu2, #submenu3, #submenu4 {
+        display: none;
+    }
+
+.boxlogo1{
+    display: none;
+}
+
+    .boxlogo {
+        position: relative;
+        font-size: 30px;
+        bottom: 0;
+    }
+
+    .logo {
+        color: white;
+        padding: 10px;
+    }
+
+    .page {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        overflow: auto;
+        max-height: 100%;
+    }
+
+    .stylesub {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        padding: 10px;
+    }
+
+    div#box1 h4 {
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div#box1 p {
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    div.stylesub h4 {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(175, 13, 13);
+    }
+
+    div.stylesub p {
+        font-size: 20px;
+    }
+
+    #box2 {
+        display: grid;
+        width: 80%;
+        height: 90%;
+        grid-template-columns: 50% 50%;
+    }
+
+
+    #box2 h4 {
+        grid-column: 1;
+    }
+
+    #box p {
+        grid-column: 2;
+    }
+
+    .titre {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    #box2 div.titre,
+    #box3 div.titre {
+        grid-column: 1 / span2;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    div.subimg img {
+        width: 100%;
+    }
+
+    .portfolio {
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+
+    .container {
+        position: relative;
+        background-color: rgb(180, 180, 180);
+        bottom: 20px;
+        border-radius: 10px;
+        width: 80%;
+        padding: 0;
+    }
+
+    .skills {
+        margin: 0;
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+
+    }
+
+    .jquery {
+        width: 30%;
+        background-color: #1f4ecf;
+    }
+
+    .html {
+        width: 80%;
+        background-color: #04AA6D;
+    }
+
+    .css {
+        width: 80%;
+        background-color: #cff529;
+    }
+
+    .js {
+        width: 30%;
+        background-color: #f44336;
+    }
+
+    .php {
+        width: 70%;
+        background-color: #a00f8d;
+    }
+
+    .skillimg {
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    div.skillimg img {
+        height: 100%;
+    }
+
+    #box3 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media screen and (max-width:1150px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        background-color: grey;
+        border-radius: 20px;
+    }
+
+    .navbar {
+        color: white;
+        height: 90%;
+        font-size: x-large;
+        justify-content: space-evenly;
+    }
+
+    main {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+
+    .present {
+        display: none;
+    }
+
+
+    .click {
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+
+    div.image img {
+        height: 100%;
+    }
+
+.pres2{
+    height: 100%;
+}
+
+    #submenu1,
+    #submenu2,
+    #submenu3,
+    #submenu4 {
+        display: none;
+    }
+
+    .fixe {
+        height: 50%;
+    }
+
+    .logo {
+        color: white;
+    }
+
+    .page {
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        overflow: auto;
+        max-height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stylesub {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        padding: 10px;
+    }
+
+    div#box1 h4 {
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div#box1 p {
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    div.stylesub h4 {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(175, 13, 13);
+    }
+
+    div.stylesub p {
+        font-size: 15px;
+    }
+
+    #box2 {
+        width: 80%;
+        height: 90%;
+    }
+
+    .titre {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #box2 div.titre,
+    #box3 div.titre {
+        grid-column: 1 / span2;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        height: 100px;
+        width: 100px;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    div.subimg img {
+        width: 100%;
+    }
+
+    .portfolio {
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+
+    .container {
+        position: relative;
+        background-color: rgb(180, 180, 180);
+        bottom: 20px;
+        border-radius: 10px;
+        width: 80%;
+        padding: 0;
+    }
+
+    .skills {
+        margin: 0;
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+
+    }
+
+    .jquery {
+        width: 30%;
+        background-color: #1f4ecf;
+    }
+
+    .html {
+        width: 80%;
+        background-color: #04AA6D;
+    }
+
+    .css {
+        width: 80%;
+        background-color: #cff529;
+    }
+
+    .js {
+        width: 30%;
+        background-color: #f44336;
+    }
+
+    .php {
+        width: 70%;
+        background-color: #a00f8d;
+    }
+
+    .skillimg {
+        height: 100px;
+        width: 100px;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    div.skillimg img {
+        height: 100%;
+    }
+
+    #box3 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .boxlogo1{
+        width: 100%;
+        position: absolute;
+        bottom:0;
+        background-color: grey;
+        border-radius: 20px;
+        display: flex;
+       justify-content: center;
+        gap: 20px;
+        font-size: large;
+    }
+
+}
+
+@media screen and (max-height:750px) {}
