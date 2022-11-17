@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Iv1.ca1c44a2eea9ad17
+            clientSecret: 2358f1d094a144ef2fa7b4eb6c910744070620e5
+          google:
+            clientId: 739334963786-b9hiehbhbfaee724ji5o2ra0t0s68ib5.apps.googleusercontent.com
+            clientSecret: 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
+            scope:
+            - email

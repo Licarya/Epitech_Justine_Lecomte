@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+
+body, div, h1, h3, h4, p, ul, li, i {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #eff1f3;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Jost', sans-serif;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-family: 'Jost', sans-serif;
+}
+
+p, a, i {
+    font-size: 1.1em;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    color: teal;
+}

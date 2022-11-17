@@ -1,0 +1,21 @@
+@keyframes transparent-to-light-gray {
+    from { background-color: transparent; }
+    to { background-color: rgb(236, 236, 236); }
+}
+
+@keyframes ligth-gray-to-transparent {
+    from { background-color: rgb(236, 236, 236); }
+    to { background-color: transparent; }
+}
+
+.user-menu-container {
+    animation-name: light-gray-to-transparent;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.user-menu-container:hover {
+    animation-name: transparent-to-light-gray;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
